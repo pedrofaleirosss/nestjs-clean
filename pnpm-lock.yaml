@@ -32,9 +32,6 @@ importers:
       bcryptjs:
         specifier: ^3.0.3
         version: 3.0.3
-      dotenv:
-        specifier: ^17.2.3
-        version: 17.2.3
       passport-jwt:
         specifier: ^4.0.1
         version: 4.0.1
@@ -75,6 +72,9 @@ importers:
       '@vitest/coverage-v8':
         specifier: ^4.0.14
         version: 4.0.14(vitest@4.0.14(@types/node@22.19.1)(jiti@2.6.1)(terser@5.44.1))
+      dotenv:
+        specifier: ^17.2.3
+        version: 17.2.3
       eslint:
         specifier: ^9.39.1
         version: 9.39.1(jiti@2.6.1)
