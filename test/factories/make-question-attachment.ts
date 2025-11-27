@@ -31,9 +31,9 @@ export class QuestionAttachmentFactory {
   ): Promise<QuestionAttachment> {
     const questionAttachment = makeQuestionAttachment(data);
 
-    await this.prisma.attachment.updateMany({
+    await this.prisma.attachment.update({
       where: {
-        id: questionAttachment.id.toString(),
+        id: questionAttachment.attachmentId.toString(),
       },
       data: {
         questionId: questionAttachment.questionId.toString(),
