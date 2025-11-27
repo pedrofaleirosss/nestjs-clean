@@ -43,6 +43,7 @@
     "@nestjs/testing": "^11.0.1",
     "@swc/core": "^1.15.3",
     "@types/express": "^5.0.0",
+    "@types/multer": "^2.0.0",
     "@types/node": "^22.10.7",
     "@types/passport-jwt": "^4.0.1",
     "@types/supertest": "^6.0.3",
