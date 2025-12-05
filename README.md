@@ -103,7 +103,7 @@ pnpm install
 
 ## ⚙️ Configuração do Ambiente
 
-Crie um arquivo `.env` baseado no seu `.env.example`:
+Crie um arquivo `.env` baseado no seu `.env.example` e um `.env.test` baseado no `.env.test.example`:
 
 Preencha:
 
